@@ -8,16 +8,17 @@
 </head>
 <body>
     <!-- atributo pantalla -->
-    <h1 class="verde">Manipulacion de DOM Basica</h1>
+    <h1>Manipulacion de DOM Basica</h1>
 
+    <!-- onchange es para los eventos que queremos que haga cuando son input etc, u onclik es para lo que son btn -->
 
-    <p>Esto es un parrafo</p>
-    <p class="parrafito">Esto es un parrafo con clase</p>
-    <p id="pid">Esto es un parrafo con ID</p>
+    <input id="calculo1" placeholder="Escribe algo aqui">
+    <input id="calculo2" placeholder="Escribe algo aquis">
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
 
-    <input placeholder="Escribe algo aqui">
+    <p id="resultado"></p>
 
-    <script src="./script.js"></script>
+    <script src="./eventos.js"></script>
 
 </body>
 </html>
